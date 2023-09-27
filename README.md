@@ -2,4 +2,4 @@
 Marina Rull
 Lucas Ramirez 
 Karol Vasquez Cruz 
-Andre Mora
+Andrés Ocampo
