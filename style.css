@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'open sans';
+    background: rgb(255, 241, 215);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(31, 31, 31);
+}
+div{
+    align-items: center;
+}
+nav {
+    list-style: none;
+    text-align: right;
+    background: rgb(31, 31, 31);
+}
+h2{
+    color: #FFFFFF;
+}
+.logo {
+    display: flex;
+}
+.logo img{
+    height: 50px;
+    padding: 10px;
+    margin-right: 10px;
+}
+a{
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+}
+a:hover{
+    background: rgb(203, 203, 203);
+}
+.a{
+    background: #FFFFFF;
+    color: black;
+}
+.marinaaphoto { 
+    size: 10px;
+} 
+
+.conocenos { 
+    color: red;
+}
+
+.descripcion { 
+    color: red;
+}
