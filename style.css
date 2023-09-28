@@ -33,6 +33,7 @@ h2{
     padding: 10px;
     margin-right: 30px;
     margin-left: 30px;
+    
 }
 a{
     display: inline-block;
@@ -44,7 +45,8 @@ a{
     margin-right: 30px;
 }
 a:hover{
-    color: #FFC0CB;
+    color: #FFC0CB; 
+    transition: 450ms;
 }
 .a{
     color: white;
@@ -98,7 +100,8 @@ hr {
     margin-right: 30px;
    margin-left: 30px;
    margin-bottom: 30px;
-    
+
+
 }
 .andressphoto{ 
     height: 250px;
@@ -139,3 +142,15 @@ hr {
     justify-content: center;
     margin: 25px;
 }
+
+.marinaaphoto:hover, .lucassphoto:hover, .karollphoto:hover, .andressphoto:hover {
+    padding: 5px;
+    background:#FFC0CB;
+    border-top: 5px solid #FFC0CB;
+    border-left: 5px solid #FFC0CB;
+    border-right: 5px solid #FFC0CB;
+    border-bottom: 5px solid #FFC0CB;
+    transition: 450ms;
+    }
+    
+    
