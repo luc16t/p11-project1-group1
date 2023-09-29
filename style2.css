@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    background: #F8F8F8;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background: black;
+}
+div{
+    align-items: center;
+}
+nav {
+    list-style: none;
+    text-align: right;
+    background: black;
+}
+h2{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.logo {
+    display: flex;
+}
+.logo img{
+    height: 65px;
+    width: 65px;
+    padding: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+    
+}
+a{
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    margin-right: 30px;
+}
+a:hover{
+    color: #FFC0CB; 
+    transition: 450ms;
+}
+.a{
+    color: white;
+    font-size: 20px;
+
+}
+
+.conocenos { 
+    color: black;
+    padding: 10px;
+    font-size: 40px;
+    margin-left: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.descripcion { 
+    color:black;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align:justify;
+}
+
+hr {
+    padding: 0px;
+    height: 5px;
+    display: flex;
+    margin-left: 108px;
+    border: 20px;
+    border-radius: 20px;
+    background-color: grey;
+    color: grey;
+    margin-right: 108px;
+    margin-bottom: 15px;
+}
+
+.logos{
+    display:flex;
+    margin: 12px;
+    margin-left: 50px;
+    justify-content: space-evenly;
+    place-content: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+.nasalogo{
+    height: 60px;
+    width: auto;
+    margin-right: 30px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+    }
+
+.amazonlogo{
+    height: 60px;;
+    width: auto;
+    margin-right: 30px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+    }
+
+.microsoftlogo{
+    height: 75px;
+    width: auto;
+    margin-right: 30px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+    }
+
+.facebooklogo{
+    height: 60px;
+    width: auto;
+    margin-right: 30px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+    }
+
+.applelogo{
+    height: 60px;
+    width: auto;
+    margin-right: 30px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+    }
