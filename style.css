@@ -141,6 +141,7 @@ hr {
     justify-content: space-evenly;
     place-content: center;
     flex-direction: row;
+    flex-wrap:wrap;
 }
 
 .marinaaphoto:hover, .lucassphoto:hover, .karollphoto:hover, .andressphoto:hover {
@@ -202,6 +203,10 @@ footer{
     color: #F8F8F8;
     padding: px;
     margin-top: -10px;
+    position:absolute;
+    bottom: 0px;
+    width: 100%;
+    
 }
 .footer-tex1{
     font-size: small;
