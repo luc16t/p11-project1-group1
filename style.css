@@ -109,6 +109,7 @@ hr {
     margin-right: 30px;
    margin-left: 0px;
    margin-bottom: 30px;
+   
 }
 .lucassphoto {
     height: 200px;
@@ -137,6 +138,8 @@ hr {
     display:flex;
     margin: 12px;
     justify-content: space-evenly;
+    place-content: center;
+    flex-direction: row;
 }
 
 .marinaaphoto:hover, .lucassphoto:hover, .karollphoto:hover, .andressphoto:hover {
@@ -153,23 +156,41 @@ hr {
     font-size: 40px;
     font-weight: bold;
     display:flex;
+    color:black;
+    margin-left: 20px;
+    margin-top: -20px;
 }
 
 .andresp, .marinap, .lucasp, .karolp {
     font-size: 20px;
+    margin-left: 20px;
 }
 
 .github {
     height: 36px;
     width: 36px;
-    margin-left: 20px;
+    margin-left:-40px;
 }
     
 .linkedin {
     height: 40px;
     width: 40px;
+    
 }
 
 .socialmedia {
     display:flex;
 }
+
+.github:hover {
+    background-color: #FFC0CB;
+    transition: 450ms;
+    border-radius: 45px;
+}
+
+.linkedin:hover {
+    background-color: #FFC0CB;
+    transition: 450ms;
+    border-radius: 1000px;
+}
+
